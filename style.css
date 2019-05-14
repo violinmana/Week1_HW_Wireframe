@@ -6,6 +6,8 @@ body{
     font-size: 18px;
     margin: 10px;
     padding: 10px;
+    text-align: center;
+    display: block;
 }
 
 /* classes */
@@ -19,31 +21,26 @@ body{
 
 #header_css{
     background: #ebebeb;
-    display: block;
     position: relative;
     height: 50px;
-    text-align: center;
     margin: 10px;
     padding: 10px;
 }
 
 #nav_css{
     background: #ebebeb;
-    display: block;
     position: relative;
     height: 50px;
-    text-align: center;
     margin: 10px;
     padding: 10px;
 }
 
 #section_css{
     background: #ebebeb;
-    display: block;
+    position: relative;
     float: left;
-    width: 60%;
-    height: 50px;
-    text-align: center;
+    width: 600px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
 }
@@ -52,25 +49,41 @@ body{
     color: #ebebeb;
     background: #777;
     position: absolute;
-    width: 90%;
+    left: 10px;
+    right: 10px;
+    height: 240px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #h1_css{
+    color: #777;
+    background: #ebebeb;
+    left: 10px;
+    right: 10px;
+    height: 55px;
+    padding: 20px;
+    margin: 10px;
 
 }
 
 #p_css{
-    
+    color: #777;
+    background: #ebebeb;
+    left: 10px;
+    right: 10px;
+    height: 55px;
+    padding: 20px;
+    margin: 10px;
+
 }
 
 #aside_css{
     background: #ebebeb;
-    display: block;
     position: relative;
     float: right;
-    width: 40%;
-    height: 50px;
-    text-align: center;
+    width: 280px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
 }
@@ -78,5 +91,8 @@ body{
 #footer_css{
     clear: both;
     background: #ebebeb;
-    
+    position: relative;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;    
 }
